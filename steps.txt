@@ -1,1 +1,14 @@
-ng new  angular-micro-service
+1-create project: ng new  angular-micro-service
+2-create module in modules folder ng g module modules/hr --routing
+3-create component ng generate component modules/hr/components/user/user-create
+4-create model ng generate class --skip-tests=true modules/hr/models/user/user-list ( --skip-tests=true skip test class)
+
+
+
+
+---------------------------------------------------------
+--add to github
+1-create  Repositories projectName
+2-git remote set-url origin https://github.com/yourName/projectName.git
+3-git remote add origin https://github.com/yourName/projectName.git
+4- git push github master
