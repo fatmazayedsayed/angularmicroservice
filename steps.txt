@@ -6,9 +6,7 @@
 	in the main module export component HrModule->exports:UserListComponent
 	in other module import it AppModule->imports:HrModule
 
-
-
-
+6-add services in provider HrModule->providers:UserListService
 
 ---------------------------------------------------------
 --add to github
