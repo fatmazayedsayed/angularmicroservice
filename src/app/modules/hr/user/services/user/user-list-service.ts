@@ -1,5 +1,8 @@
+import { Injectable } from "@angular/core";
 import { UserList } from "../../models/user/user-list";
-
+@Injectable({
+    providedIn: 'root'
+})
 export class UserListService {
      userArr: UserList[] = [];
     initalizeUserList()
