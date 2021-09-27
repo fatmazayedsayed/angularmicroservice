@@ -14,6 +14,10 @@ import { UserCreateComponent } from './components/user/user-create/user-create.c
   imports: [
     CommonModule,
     HrRoutingModule
+  ],
+  exports: [
+    UserListComponent,
+    UserCreateComponent // <--- Enable using the component in other modules
   ]
 })
 export class HrModule { }

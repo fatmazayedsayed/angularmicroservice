@@ -2,6 +2,10 @@
 2-create module in modules folder ng g module modules/hr --routing
 3-create component ng generate component modules/hr/components/user/user-create
 4-create model ng generate class --skip-tests=true modules/hr/models/user/user-list ( --skip-tests=true skip test class)
+5- call component from another module:
+	in the main module export component HrModule->exports:UserListComponent
+	in other module import it AppModule->imports:HrModule
+
 
 
 
