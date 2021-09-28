@@ -6,6 +6,7 @@ import { UserCreateComponent }
 from './components/user-create/user-create.component';
 import { UserListComponent } 
 from './components/user-list/user-list.component';
+import { NoAuthGuard } from '../../../auth/no-auth-guard.service';
 
  
 
@@ -19,7 +20,7 @@ from './components/user-list/user-list.component';
     UserRoutingModule,
   ],
   providers: [
-    UserListService,
+    UserListService,NoAuthGuard
   ],
 
   exports: [
