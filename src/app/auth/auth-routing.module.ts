@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AuthComponent } from './auth.component';
 import { NoAuthGuard } from './no-auth-guard.service';
-import { TestdataComponent } from './testdata/testdata.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'login',pathMatch:'full'},

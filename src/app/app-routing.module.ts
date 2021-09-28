@@ -4,9 +4,6 @@ import { AuthGuard } from './modules/core/guards/auth-guard';
 import { PagesComponent } from './modules/pages.component';
 
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { AppComponent } from './app.component';
-import { TestdataComponent } from './auth/testdata/testdata.component';
 const routes: Routes = [
 
   {
