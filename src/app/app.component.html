@@ -1,2 +1,6 @@
-main
+{{ title }}
+<div *ngIf="userService.isAuth()">
+  <input type="button" id="btnSignOut" value="sign out" (click)="signOut()" />
+</div>
+
 <router-outlet></router-outlet>
